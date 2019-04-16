@@ -1,7 +1,9 @@
 body{
   background-image: url("https://raw.githubusercontent.com/tusharpasalkar/pocketpune/master/a.jpg");
   background-size: cover;
-  height:45px;
+ overflow-y: hidden;
+  overflow-x: hidden;
+  background-attachment: fixed;
 }
 
 .btn{
