@@ -1,0 +1,75 @@
+body{
+    background-image: url("https://st2.depositphotos.com/4394039/12334/i/950/depositphotos_123343868-stock-photo-absorbed-boy-travelling-alone.jpg");
+    background-size:cover;
+    background-attachment:fixed;
+    overflow-y:scroll ;
+    overflow-x: hidden;
+    margin: 0px;
+  }
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height:100%;
+    background-color:rgba(0, 0, 0, 0.1);
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* Float four columns side by side */
+  .column {
+    float:left;
+    width: 25%;
+    padding: 0 50px;
+  }
+
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 60px 50px;}
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display:table;
+    clear: both;
+  }
+
+  /* Responsive columns */
+  @media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 15px;
+      margin-left:-35px;
+
+    }
+    body{
+      background-image:linear-gradient(to top, red, purple);
+    }
+  }
+
+  /* Style the counter cards */
+  .card {
+    padding:10px;
+    text-align: center;
+    background-color:rgba(10, 20, 20, 0.7);
+    color:white;
+    width:250px;
+    border-radius:15px;
+}
+
+.btn {
+  background-color:orange;
+  border-radius: 10px;
+  color: white;
+  padding:.5rem;
+  width: 15px;
+  text-decoration: none;
+}

@@ -1,0 +1,40 @@
+body{
+  background-image: url("pics/b.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height:90%;
+  overflow-x:hidden;
+}
+.ov{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height:100%
+  background-color:rgba(0,0,0,0.9);
+}
+
+.nav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #377;
+}
+
+.nav li {
+  float:right;
+  margin-top:3px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:#1e8c8c;
+}
